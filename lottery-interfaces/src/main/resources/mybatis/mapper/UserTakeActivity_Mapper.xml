@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.swpu.lottery.infra.dao.IUserTakeActivityDao">
+
+    <resultMap id="userTakeActivityMap" type="com.swpu.lottery.infra.po.UserTakeActivity">
+        <id column="id" property="id"/>
+        <result column="u_id" property="uId"/>
+        <result column="take_id" property="takeId"/>
+        <result column="activity_id" property="activityId"/>
+        <result column="activity_name" property="activityName"/>
+        <result column="strategy_id" property="strategyId"/>
+        <result column="take_date" property="takeDate"/>
+        <result column="take_count" property="takeCount"/>
+        <result column="uuid" property="uuid"/>
+        <result column="state" property="state"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.swpu.lottery.infra.po.UserTakeActivity">
+        INSERT INTO user_take_activity
+        (u_id, take_id, activity_id, activity_name, strategy_id, take_date,
+         take_count, uuid, state, create_time, update_time)
+        VALUES
+        (#{uId}, #{takeId}, #{activityId}, #{activityName},#{strategyId}, #{takeDate},
+         #{takeCount}, #{uuid},#{state}, now(), now())
+    </insert>
+    <select id="queryNoConsumedTakeActivityOrder" parameterType="com.swpu.lottery.infra.po.UserTakeActivity" resultMap="userTakeActivityMap">
+        SELECT u_id, take_id, activity_id, activity_name,strategy_id, take_date,
+               take_count, uuid, state, create_time, update_time
+        FROM user_take_activity
+        WHERE u_id=#{uId} AND activity_id=#{activityId} AND state=0
+    </select>
+    <select id="lockTackActivity" parameterType="com.swpu.lottery.infra.po.UserTakeActivity" resultType="int">
+        SELECT take_count FROM user_take_activity
+        WHERE u_id=#{uId} AND activity_id=#{activityId} AND take_id=#{takeId}
+    </select>
+
+</mapper>

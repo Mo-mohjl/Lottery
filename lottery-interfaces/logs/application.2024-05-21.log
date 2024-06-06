@@ -1,0 +1,1034 @@
+2024-05-21 09:42:32 [main] INFO  o.a.d.common.logger.LoggerFactory - using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
+2024-05-21 09:42:32 [main] INFO  o.a.d.s.b.c.e.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2024-05-21 09:42:32 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.name=Lottery, dubbo.application.parameters.unicast=false, dubbo.application.qos-enable=false, dubbo.application.version=1.0.0, dubbo.config.multiple=true, dubbo.protocol.name=dubbo, dubbo.protocol.port=20880, dubbo.registry.address=multicast://224.5.6.7:1234, dubbo.scan.base-packages=com.swpu.lottery.rpc}
+2024-05-21 09:42:32 [main] INFO  c.swpu.lottery.test.domain.RuleTest - Starting RuleTest on LAPTOP-1JKMSSTJ with PID 4608 (started by hjl in D:\idea工程\Lottery\lottery-interfaces)
+2024-05-21 09:42:32 [main] INFO  c.swpu.lottery.test.domain.RuleTest - No active profile set, falling back to default profiles: default
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.c.a.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.c.a.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.c.a.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.RegistryConfig#0, class : org.apache.dubbo.config.RegistryConfig] has been registered.
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.c.a.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.RegistryConfig#0] has been registered.
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.c.a.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ProtocolConfig#0, class : org.apache.dubbo.config.ProtocolConfig] has been registered.
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.c.a.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ProtocolConfig#0] has been registered.
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.b.f.a.ServiceAnnotationBeanPostProcessor -  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 09:42:33 [main] INFO  o.a.d.c.s.b.f.a.ServiceAnnotationBeanPostProcessor -  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 09:42:34 [main] WARN  o.a.d.c.s.b.f.a.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.swpu.lottery], dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 09:42:34 [main] INFO  o.a.d.c.s.b.f.a.ServiceAnnotationBeanPostProcessor -  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 09:42:34 [main] INFO  o.a.d.c.s.b.f.a.ServiceAnnotationBeanPostProcessor -  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 09:42:34 [main] WARN  o.a.d.c.s.b.f.a.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.swpu.lottery.rpc], dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 09:42:37 [main] INFO  c.s.l.a.worker.LotteryXxlJobConfig - >>>>>>>>>>> xxl-job config init.
+2024-05-21 09:42:37 [main] WARN  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2024-05-21 09:42:38 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2024-05-21 09:42:38 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+2024-05-21 09:42:38 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+2024-05-21 09:42:38 [main] INFO  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:lotteryOrderMQStateJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@72646d16[class com.swpu.lottery.application.worker.LotteryXxlJob#lotteryOrderMQStateJobHandler]
+2024-05-21 09:42:38 [main] INFO  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job register jobhandler success, name:lotteryActivityStateJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6ec2d990[class com.swpu.lottery.application.worker.LotteryXxlJob#lotteryActivityStateJobHandler]
+2024-05-21 09:42:38 [main] WARN  c.x.job.core.executor.XxlJobExecutor - >>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2024-05-21 09:42:38 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759170
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-1, groupId=lottery] Subscribed to topic(s): lottery_invoice
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759191
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-2, groupId=lottery] Subscribed to topic(s): lottery_invoice
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759307
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-3, groupId=lottery] Subscribed to topic(s): lottery_invoice
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759320
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-4, groupId=lottery] Subscribed to topic(s): lottery_invoice
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759327
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-5, groupId=lottery] Subscribed to topic(s): lottery_invoice
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759333
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-6, groupId=lottery] Subscribed to topic(s): lottery-activity-partake
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759340
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-7, groupId=lottery] Subscribed to topic(s): lottery-activity-partake
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759346
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-8, groupId=lottery] Subscribed to topic(s): lottery-activity-partake
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759353
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-9, groupId=lottery] Subscribed to topic(s): lottery-activity-partake
+2024-05-21 09:42:39 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = lottery
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.5.1
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 0efa8fb0f4c73d92
+2024-05-21 09:42:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1716255759359
+2024-05-21 09:42:39 [main] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-10, groupId=lottery] Subscribed to topic(s): lottery-activity-partake
+2024-05-21 09:42:39 [main] INFO  c.swpu.lottery.test.domain.RuleTest - Started RuleTest in 7.13 seconds (JVM running for 11.374)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-10, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-9, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-4, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-5, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-3, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-8, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-7, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-1, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-6, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-lottery-2, groupId=lottery] Cluster ID: tlhBorlNQ1-tLv1jvAyMMw
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Finished assignment for group at generation 18: {consumer-lottery-5-cc557279-31e1-413f-8149-1bb69778c978=Assignment(partitions=[lottery_invoice-0])}
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Join group failed with org.apache.kafka.common.errors.RebalanceInProgressException: The group is rebalancing, so a rejoin is needed.
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] (Re-)joining group
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Finished assignment for group at generation 19: {consumer-lottery-8-5e774b81-3e80-45b1-95cf-f14c8bcd9c9a=Assignment(partitions=[]), consumer-lottery-7-780ed5bc-f417-497e-951b-46644fecaa66=Assignment(partitions=[]), consumer-lottery-6-6c54fedc-a1dd-4f55-b75c-f69a6f1e604b=Assignment(partitions=[]), consumer-lottery-5-cc557279-31e1-413f-8149-1bb69778c978=Assignment(partitions=[]), consumer-lottery-3-6d5981b3-0955-4b6d-9e16-9cad219c0d81=Assignment(partitions=[]), consumer-lottery-9-e0687f3b-4305-4dc9-b336-914798cb3181=Assignment(partitions=[]), consumer-lottery-4-4df16ad9-286f-4384-8f34-898000718f64=Assignment(partitions=[]), consumer-lottery-2-e5e11d12-aed1-4ee0-8b58-b2305a4a64ef=Assignment(partitions=[]), consumer-lottery-10-6b3136fe-af3b-4e38-b663-ab2690fe3a78=Assignment(partitions=[lottery-activity-partake-0]), consumer-lottery-1-499bac61-ea8b-45ea-a945-6c873abf3eb2=Assignment(partitions=[lottery_invoice-0])}
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Successfully joined group with generation 19
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Adding newly assigned partitions: 
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: []
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] Adding newly assigned partitions: lottery-activity-partake-0
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] Adding newly assigned partitions: lottery_invoice-0
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] Found no committed offset for partition lottery-activity-partake-0
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] Setting offset for partition lottery_invoice-0 to the committed offset FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-1JKMSSTJ:9092 (id: 0 rack: null)], epoch=absent}}
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: [lottery_invoice-0]
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-lottery-10, groupId=lottery] Resetting offset for partition lottery-activity-partake-0 to offset 0.
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions assigned: [lottery-activity-partake-0]
+2024-05-21 09:42:43 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  c.s.l.a.m.c.LotteryActivityPartakeRecordListener - 消费MQ消息，异步扣减活动库存 message：{"activityId":100001,"stockCount":100,"stockSurplusCount":81,"uId":"Uhdgkw766120d"}
+2024-05-21 09:42:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-21 09:42:44 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  c.s.l.a.m.c.LotteryActivityPartakeRecordListener - 消费MQ消息，异步扣减活动库存 message：{"activityId":100001,"stockCount":100,"stockSurplusCount":81,"uId":"Uhdgkw766120d"}
+2024-05-21 09:42:44 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  c.s.l.a.m.c.LotteryActivityPartakeRecordListener - 消费MQ消息，异步扣减活动库存 message：{"activityId":100001,"stockCount":100,"stockSurplusCount":81,"uId":"Uhdgkw766120d"}
+2024-05-21 09:43:04 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:04 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:03 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:03 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:06 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-5, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:03 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:12 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:15 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:22 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 09:43:22 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Attempt to heartbeat failed for since member id consumer-lottery-8-5e774b81-3e80-45b1-95cf-f14c8bcd9c9a is not valid.
+2024-05-21 10:15:27 [main] INFO  c.s.l.d.r.service.engine.EngineBase - 决策树引擎=>User Segmentation Tree userId：fustack treeId：2110081902 treeNode：2 ruleKey：gender matterValue：man
+2024-05-21 10:15:27 [main] INFO  c.s.l.d.r.service.engine.EngineBase - 决策树引擎=>User Segmentation Tree userId：fustack treeId：2110081902 treeNode：5 ruleKey：age matterValue：25
+2024-05-21 10:15:27 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 10:15:27 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-lottery-1, groupId=lottery] Error sending fetch request (sessionId=INVALID, epoch=INITIAL) to node 0: {}.
+org.apache.kafka.common.errors.DisconnectException: null
+2024-05-21 10:15:27 [kafka-coordinator-heartbeat-thread | lottery] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-lottery-10, groupId=lottery] Error sending fetch request (sessionId=INVALID, epoch=INITIAL) to node 0: {}.
+org.apache.kafka.common.errors.DisconnectException: null
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-3, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-6, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-8, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-2, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] Discovered group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null)
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-9, groupId=lottery] Group coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Attempt to heartbeat failed for since member id consumer-lottery-7-780ed5bc-f417-497e-951b-46644fecaa66 is not valid.
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] (Re-)joining group
+2024-05-21 10:15:27 [main] INFO  c.s.lottery.test.domain.ActivityTest - 请求参数：{"treeId":2110081902,"userId":"fustack","valMap":{"gender":"man","age":"25"}}
+2024-05-21 10:15:27 [main] INFO  c.s.lottery.test.domain.ActivityTest - 测试结果：{"nodeId":5,"nodeValue":"100002","success":true,"treeId":2110081902,"userId":"fustack"}
+2024-05-21 10:15:27 [DubboShutdownHook] INFO  o.a.dubbo.config.DubboShutdownHook -  [DUBBO] Run shutdown hook now., dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 10:15:27 [SpringContextShutdownHook] INFO  o.a.d.s.b.c.e.AwaitingNonWebApplicationListener -  [Dubbo] Current Spring Boot Application is about to shutdown...
+2024-05-21 10:15:27 [Thread-9] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2024-05-21 10:15:27 [DubboShutdownHook] INFO  o.a.d.r.s.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.7.1, current host: 2.0.0.1
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-1, groupId=lottery] Revoke previously assigned partitions lottery_invoice-0
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] Member consumer-lottery-4-4df16ad9-286f-4384-8f34-898000718f64 sending LeaveGroup request to coordinator LAPTOP-1JKMSSTJ:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-5, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-lottery-10, groupId=lottery] Revoke previously assigned partitions lottery-activity-partake-0
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-7, groupId=lottery] Join group failed with org.apache.kafka.common.errors.WakeupException
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions revoked: [lottery_invoice-0]
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - lottery: partitions revoked: [lottery-activity-partake-0]
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-7, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-4, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-10, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-1, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] ERROR o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-lottery-4, groupId=lottery] LeaveGroup request failed with error: The coordinator is not aware of this member.
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-4-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-3-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-4-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-8, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-9, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-6, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-3, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.a.k.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-lottery-2, groupId=lottery] Unsubscribed all topics or patterns and assigned partitions
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-3-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - lottery: Consumer stopped
+2024-05-21 10:15:27 [Thread-9] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.
+2024-05-21 10:15:29 [xxl-job, executor ExecutorRegistryThread] ERROR c.x.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:748)
+2024-05-21 10:15:29 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='lottery-job', registryValue='http://2.0.0.1:9999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:7393/xxl-job-admin/api/registry, content=null]
+2024-05-21 10:15:31 [xxl-job, executor ExecutorRegistryThread] ERROR c.x.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.lang.Thread.run(Thread.java:748)
+2024-05-21 10:15:31 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='lottery-job', registryValue='http://2.0.0.1:9999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:7393/xxl-job-admin/api/registry, content=null]
+2024-05-21 10:15:33 [xxl-job, executor ExecutorRegistryThread] ERROR c.x.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84)
+	at java.lang.Thread.run(Thread.java:748)
+2024-05-21 10:15:33 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='lottery-job', registryValue='http://2.0.0.1:9999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:7393/xxl-job-admin/api/registryRemove, content=null]
+2024-05-21 10:15:35 [xxl-job, executor ExecutorRegistryThread] ERROR c.x.job.core.util.XxlJobRemotingUtil - Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:95)
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84)
+	at java.lang.Thread.run(Thread.java:748)
+2024-05-21 10:15:35 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='lottery-job', registryValue='http://2.0.0.1:9999/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused: connect), for url : http://127.0.0.1:7393/xxl-job-admin/api/registryRemove, content=null]
+2024-05-21 10:15:35 [xxl-job, executor ExecutorRegistryThread] INFO  c.x.j.c.t.ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destory.
+2024-05-21 10:15:35 [SpringContextShutdownHook] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-05-21 10:15:35 [xxl-job, executor JobLogFileCleanThread] INFO  c.x.j.c.thread.JobLogFileCleanThread - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2024-05-21 10:15:35 [xxl-job, executor TriggerCallbackThread] INFO  c.x.j.c.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor callback thread destory.
+2024-05-21 10:15:35 [Thread-8] INFO  c.x.j.c.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2024-05-21 10:15:35 [SpringContextShutdownHook] INFO  o.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!

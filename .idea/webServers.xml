@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a1a75644-7544-4a83-83c6-7ae35dfd5fa9" name="Vim">
+        <fileTransfer accessType="SFTP" host="192.168.139.129" port="22" sshConfigId="049db393-6669-4dbb-8223-cfe2371b76fb" sshConfig="root@192.168.139.129:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
