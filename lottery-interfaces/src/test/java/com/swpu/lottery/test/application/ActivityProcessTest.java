@@ -22,8 +22,8 @@ public class ActivityProcessTest {
     @Test
     public void test_doDrawProcess() {
         DrawProcessReq req = new DrawProcessReq();
-        req.setuId("Uhdgkw766120d");
-        req.setActivityId(100001L);
+        req.setuId("Uhsjdhs654548a");
+        req.setActivityId(100002L);
         DrawProcessResult drawProcessResult = activityProcess.doDrawProcess(req);
         logger.info("请求入参：{}", JSON.toJSONString(req));
         logger.info("测试结果：{}", JSON.toJSONString(drawProcessResult));

@@ -121,6 +121,15 @@ public class ActivityRepository implements IActivityRepository {
         return activityVOs;
     }
 
+    /**
+     * 1.这里生成了一个库存计数的Key，KEY_LOTTERY_ACTIVITY_STOCK_COUNT 是一个Redis的Key，用于记录某个活动的当前库存计数。
+     * 2.使用Redis的incr命令对库存使用计数进行加1操作，返回加1后的值。表示已经使用的库存，如果使用库存>总库存就使用decr方法减一并报错。
+     * 3.生成一个库存stockTokenKey表示唯一标识
+     * @param uId 用户Id
+     * @param activityId 活动Id
+     * @param stockCount 库存数量
+     * @return
+     */
     @Override
     public StockResult subtractionActivityStockByRedis(String uId, Long activityId, Integer stockCount) {
         String stockKey = Constants.RedisKey.KEY_LOTTERY_ACTIVITY_STOCK_COUNT(activityId);

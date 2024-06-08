@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92172326-bb0a-445f-a1e1-09dbf0301797" name="Changes" comment="激励式营销抽奖项目" />
+    <list default="true" id="92172326-bb0a-445f-a1e1-09dbf0301797" name="Changes" comment="激励式营销抽奖项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,32 +46,21 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
   <component name="ProjectId" id="2aATpgQOzRLSSF4TkZxs4tnBVnt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ActivityProcessTest.test_doDrawProcess.executor": "Debug",
-    "Maven.Lottery [clean].executor": "Run",
-    "Maven.lottery-application [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
-    "Maven.lottery-common [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
-    "Maven.lottery-domain [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
-    "Maven.lottery-infrastructure [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
-    "Maven.lottery-interfaces [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
-    "Maven.lottery-rpc [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/idea工程/Lottery"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -238,13 +229,35 @@
       <workItem from="1716202983389" duration="7674000" />
       <workItem from="1716253302882" duration="4580000" />
       <workItem from="1716267294679" duration="124000" />
+      <workItem from="1717822021012" duration="5425000" />
     </task>
+    <task id="LOCAL-00001" summary="激励式营销抽奖项目">
+      <option name="closed" value="true" />
+      <created>1717645281095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717645281095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="激励式营销抽奖项目" />
     <option name="LAST_COMMIT_MESSAGE" value="激励式营销抽奖项目" />
   </component>
@@ -608,7 +621,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lottery-infrastructure/src/main/java/com/swpu/lottery/infra/repository/ActivityRepository.java</url>
-          <line>125</line>
+          <line>134</line>
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -623,7 +636,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lottery-infrastructure/src/main/java/com/swpu/lottery/infra/repository/ActivityRepository.java</url>
-          <line>126</line>
+          <line>135</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -686,6 +699,36 @@
           <line>73</line>
           <option name="timeStamp" value="247" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lottery-domain/src/main/java/com/swpu/lottery/domain/activity/service/partake/impl/ActivityPartakeImpl.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lottery-domain/src/main/java/com/swpu/lottery/domain/activity/service/partake/impl/ActivityPartakeImpl.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lottery-domain/src/main/java/com/swpu/lottery/domain/activity/service/partake/impl/ActivityPartakeImpl.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lottery-domain/src/main/java/com/swpu/lottery/domain/activity/service/partake/impl/ActivityPartakeImpl.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lottery-domain/src/main/java/com/swpu/lottery/domain/activity/service/partake/impl/ActivityPartakeImpl.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lottery-infrastructure/src/main/java/com/swpu/lottery/infra/repository/UserTakeActivityRepository.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -698,6 +741,7 @@
         <watch expression="strategy" language="JAVA" />
         <watch expression="this" />
         <watch expression="((java.util.concurrent.ConcurrentHashMap.MapEntry)((java.util.concurrent.ConcurrentHashMap)((SingleRateRandomDrawAlgorithm)((DrawAlgorithmTest)this).randomDrawAlgorithm).rateTupleMap).entrySet().toArray()[0]).getValue()" custom="DrawAlgorithmTest,java.util.concurrent.ConcurrentHashMap,java.util.concurrent.ConcurrentHashMap.MapEntry,com.swpu.lottery.domain.strategy.service.algorithm.impl.SingleRateRandomDrawAlgorithm" />
+        <watch expression="((DBRouterConfig)((DBRouterStrategyHashCode)dbRouter).dbRouterConfig).routerKey" custom="cn.bugstack.middleware.db.router.strategy.impl.DBRouterStrategyHashCode,cn.bugstack.middleware.db.router.DBRouterConfig" />
       </configuration>
     </watches-manager>
   </component>

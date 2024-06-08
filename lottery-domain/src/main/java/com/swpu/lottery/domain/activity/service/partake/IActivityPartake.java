@@ -25,6 +25,13 @@ public interface IActivityPartake {
      * @return          保存结果
      */
     Result recordDrawOrder(DrawOrderVO drawOrder);
+
+    /**
+     * 查询是否有未使用的抽奖单
+     * @param uId
+     * @param activityId
+     * @return
+     */
     UserTakeActivityVO queryNoConsumedTakeActivityOrder(String uId, Long activityId);
     /**
      * 更新发货单MQ状态
